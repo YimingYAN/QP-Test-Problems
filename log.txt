@@ -1,0 +1,140 @@
+In total 138 problem detected.
+ID.       Name    rl = ru  rl = -inf  ru = +inf     lb = 0  lb = -inf  ub = +inf
+  1      AUG2D        Yes         NO         NO         No        Yes        YES
+  2     AUG2DC        Yes         NO         NO         No        Yes        YES
+  3   AUG2DCQP        Yes         NO         NO         No         NO        YES
+  4    AUG2DQP        Yes         NO         NO         No         NO        YES
+  5      AUG3D        Yes         NO         NO         No        Yes        YES
+  6     AUG3DC        Yes         NO         NO         No        Yes        YES
+  7   AUG3DCQP        Yes         NO         NO         No         NO        YES
+  8    AUG3DQP        Yes         NO         NO         No         NO        YES
+  9      BOYD1        Yes         NO         NO         No         NO        YES
+ 10      BOYD2         NO         NO         NO         No         NO        YES
+ 11   CONT-050        Yes         NO         NO        Yes         NO         NO
+ 12   CONT-100        Yes         NO         NO        Yes         NO         NO
+ 13   CONT-101        Yes         NO         NO        Yes         NO         NO
+ 14   CONT-200        Yes         NO         NO        Yes         NO         NO
+ 15   CONT-201        Yes         NO         NO        Yes         NO         NO
+ 16   CONT-300        Yes         NO         NO        Yes         NO         NO
+ 17   CVXQP1_L        Yes         NO         NO         No         NO         NO
+ 18   CVXQP1_M        Yes         NO         NO         No         NO         NO
+ 19   CVXQP1_S        Yes         NO         NO         No         NO         NO
+ 20   CVXQP2_L        Yes         NO         NO         No         NO         NO
+ 21   CVXQP2_M        Yes         NO         NO         No         NO         NO
+ 22   CVXQP2_S        Yes         NO         NO         No         NO         NO
+ 23   CVXQP3_L        Yes         NO         NO         No         NO         NO
+ 24   CVXQP3_M        Yes         NO         NO         No         NO         NO
+ 25   CVXQP3_S        Yes         NO         NO         No         NO         NO
+ 26     DPKLO1        Yes         NO         NO         No        Yes        YES
+ 27      DTOC3        Yes         NO         NO         No         NO         NO
+ 28      DUAL1        Yes         NO         NO        Yes         NO         NO
+ 29      DUAL2        Yes         NO         NO        Yes         NO         NO
+ 30      DUAL3        Yes         NO         NO        Yes         NO         NO
+ 31      DUAL4        Yes         NO         NO        Yes         NO         NO
+ 32     DUALC1         NO         NO         NO        Yes         NO         NO
+ 33     DUALC2         NO         NO         NO        Yes         NO         NO
+ 34     DUALC5         NO         NO         NO        Yes         NO         NO
+ 35     DUALC8         NO         NO         NO        Yes         NO         NO
+ 36     EXDATA         NO         NO         NO         No         NO         NO
+ 37    GENHS28        Yes         NO         NO         No        Yes        YES
+ 38   GOULDQP2        Yes         NO         NO         No         NO         NO
+ 39   GOULDQP3        Yes         NO         NO         No         NO         NO
+ 40      HS118         NO         NO         NO         No         NO         NO
+ 41       HS21         NO         NO        YES         No         NO         NO
+ 42      HS268         NO         NO        YES         No        Yes        YES
+ 43       HS35         NO         NO        YES        Yes         NO        YES
+ 44    HS35MOD         NO         NO        YES         No         NO         NO
+ 45       HS51        Yes         NO         NO         No        Yes        YES
+ 46       HS52        Yes         NO         NO         No        Yes        YES
+ 47       HS53        Yes         NO         NO         No         NO         NO
+ 48       HS76         NO         NO         NO        Yes         NO        YES
+ 49   HUES-MOD        Yes         NO         NO        Yes         NO        YES
+ 50    HUESTIS        Yes         NO         NO        Yes         NO        YES
+ 51       KSIP         NO         NO        YES         No        Yes        YES
+ 52      LASER         NO         NO         NO         No        Yes        YES
+ 53    LISWET1         NO         NO        YES         No        Yes        YES
+ 54   LISWET10         NO         NO        YES         No        Yes        YES
+ 55   LISWET11         NO         NO        YES         No        Yes        YES
+ 56   LISWET12         NO         NO        YES         No        Yes        YES
+ 57    LISWET2         NO         NO        YES         No        Yes        YES
+ 58    LISWET3         NO         NO        YES         No        Yes        YES
+ 59    LISWET4         NO         NO        YES         No        Yes        YES
+ 60    LISWET5         NO         NO        YES         No        Yes        YES
+ 61    LISWET6         NO         NO        YES         No        Yes        YES
+ 62    LISWET7         NO         NO        YES         No        Yes        YES
+ 63    LISWET8         NO         NO        YES         No        Yes        YES
+ 64    LISWET9         NO         NO        YES         No        Yes        YES
+ 65    LOTSCHD        Yes         NO         NO        Yes         NO        YES
+ 66   MOSARQP1         NO         NO        YES        Yes         NO        YES
+ 67   MOSARQP2         NO         NO        YES        Yes         NO        YES
+ 68   POWELL20         NO         NO        YES         No        Yes        YES
+ 69    PRIMAL1         NO        Yes         NO         No         NO        YES
+ 70    PRIMAL2         NO        Yes         NO         No         NO        YES
+ 71    PRIMAL3         NO        Yes         NO         No         NO        YES
+ 72    PRIMAL4         NO        Yes         NO         No         NO        YES
+ 73   PRIMALC1         NO        Yes         NO         No         NO        YES
+ 74   PRIMALC2         NO        Yes         NO         No         NO        YES
+ 75   PRIMALC5         NO        Yes         NO         No         NO        YES
+ 76   PRIMALC8         NO        Yes         NO         No         NO        YES
+ 77    Q25FV47         NO         NO         NO        Yes         NO        YES
+ 78   QADLITTL         NO         NO         NO        Yes         NO        YES
+ 79     QAFIRO         NO         NO         NO        Yes         NO        YES
+ 80     QBANDM        Yes         NO         NO        Yes         NO        YES
+ 81   QBEACONF         NO         NO         NO        Yes         NO        YES
+ 82    QBORE3D         NO         NO         NO         No         NO         NO
+ 83    QBRANDY         NO         NO         NO        Yes         NO        YES
+ 84     QCAPRI         NO         NO         NO         No         NO         NO
+ 85      QE226         NO         NO         NO        Yes         NO        YES
+ 86   QETAMACR         NO         NO         NO         No         NO         NO
+ 87   QFFFFF80         NO         NO         NO        Yes         NO        YES
+ 88   QFORPLAN         NO         NO         NO         No         NO         NO
+ 89   QGFRDXPN         NO         NO         NO         No         NO         NO
+ 90    QGROW15        Yes         NO         NO        Yes         NO         NO
+ 91    QGROW22        Yes         NO         NO        Yes         NO         NO
+ 92     QGROW7        Yes         NO         NO        Yes         NO         NO
+ 93    QISRAEL         NO        Yes         NO        Yes         NO        YES
+ 94   QPCBLEND         NO         NO         NO        Yes         NO        YES
+ 95   QPCBOEI1         NO         NO         NO         No         NO         NO
+ 96   QPCBOEI2         NO         NO         NO         No         NO         NO
+ 97   QPCSTAIR         NO         NO         NO         No         NO         NO
+ 98   QPILOTNO         NO         NO         NO         No         NO         NO
+ 99     QPTEST         NO         NO         NO        Yes         NO         NO
+100    QRECIPE         NO         NO         NO         No         NO         NO
+101     QSC205         NO         NO         NO        Yes         NO        YES
+102   QSCAGR25         NO         NO         NO        Yes         NO        YES
+103    QSCAGR7         NO         NO         NO        Yes         NO        YES
+104    QSCFXM1         NO         NO         NO        Yes         NO        YES
+105    QSCFXM2         NO         NO         NO        Yes         NO        YES
+106    QSCFXM3         NO         NO         NO        Yes         NO        YES
+107   QSCORPIO         NO         NO         NO        Yes         NO        YES
+108     QSCRS8         NO         NO         NO        Yes         NO        YES
+109     QSCSD1        Yes         NO         NO        Yes         NO        YES
+110     QSCSD6        Yes         NO         NO        Yes         NO        YES
+111     QSCSD8        Yes         NO         NO        Yes         NO        YES
+112    QSCTAP1         NO         NO         NO        Yes         NO        YES
+113    QSCTAP2         NO         NO         NO        Yes         NO        YES
+114    QSCTAP3         NO         NO         NO        Yes         NO        YES
+115      QSEBA         NO         NO         NO         No         NO         NO
+116   QSHARE1B         NO         NO         NO        Yes         NO        YES
+117   QSHARE2B         NO         NO         NO        Yes         NO        YES
+118     QSHELL         NO         NO         NO         No         NO         NO
+119   QSHIP04L         NO         NO         NO        Yes         NO        YES
+120   QSHIP04S         NO         NO         NO        Yes         NO        YES
+121   QSHIP08L         NO         NO         NO        Yes         NO        YES
+122   QSHIP08S         NO         NO         NO        Yes         NO        YES
+123   QSHIP12L         NO         NO         NO        Yes         NO        YES
+124   QSHIP12S         NO         NO         NO        Yes         NO        YES
+125    QSIERRA         NO         NO         NO        Yes         NO         NO
+126     QSTAIR         NO         NO         NO         No         NO         NO
+127   QSTANDAT         NO         NO         NO         No         NO         NO
+128       S268         NO         NO        YES         No        Yes        YES
+129    STADAT1         NO         NO         NO         No        Yes        YES
+130    STADAT2         NO         NO         NO         No        Yes        YES
+131    STADAT3         NO         NO         NO         No        Yes        YES
+132     STCQP1        Yes         NO         NO         No         NO         NO
+133     STCQP2        Yes         NO         NO         No         NO         NO
+134       TAME        Yes         NO         NO        Yes         NO        YES
+135       UBH1        Yes         NO         NO         No         NO         NO
+136     VALUES        Yes         NO         NO        Yes         NO         NO
+137        YAO         NO         NO        YES         No         NO         NO
+138   ZECEVIC2         NO        Yes         NO        Yes         NO         NO
