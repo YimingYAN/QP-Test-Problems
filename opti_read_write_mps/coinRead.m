@@ -90,11 +90,11 @@ if(~nnz(H))
     H = [];
 %Assume we need to make symmetric if e.g. [8 0; 2 10]
 elseif(nnz(triu(H,1)) == 0 && ~(nnz(tril(H,-1)) == 0))
-    optiwarn('OPTI:COINR_QUADOBJ','Assumed QOBJ has been specified as lower triangular only, forcing to symmetric');
+    %optiwarn('OPTI:COINR_QUADOBJ','Assumed QOBJ has been specified as lower triangular only, forcing to symmetric');
     H = H + tril(H,-1)';
 %Check for upper tri only
 elseif(nnz(tril(H,-1)) == 0 && ~(nnz(triu(H,1)) == 0))
-    optiwarn('OPTI:COINR_QUADOBJ','Assumed QOBJ has been specified as upper triangular only, forcing to symmetric');
+    %optiwarn('OPTI:COINR_QUADOBJ','Assumed QOBJ has been specified as upper triangular only, forcing to symmetric');
     H = H + triu(H,1)';
 end
     
