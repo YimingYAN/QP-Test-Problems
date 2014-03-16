@@ -17,7 +17,7 @@ Maros and Meszaros Convex QP Test Problems (MAT Format)
 ```
 These problems are consistent with the discrption from Maros and Meszaros.
 
-* In he discription about these test problems from Maros and Meszaros, they assume rl=ru. **BUT we do observe that for quite a few problems, rl ~= ru. For details of extracted problems, see log.txt**.
+* In the discription about these test problems from Maros and Meszaros, they assume rl=ru. **BUT we do observe that for quite a few problems, rl ~= ru. For details of extracted problems, see log.txt**.
 
 
 ### Credits
