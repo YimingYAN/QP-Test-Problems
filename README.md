@@ -22,7 +22,7 @@ These problems are consistent with the discrption from Maros and Meszaros.
 * To regenerate the mat files, run *setup* first and then *qps2mat*. **The function coinRead only runs on Windows system!!**
 
 ### Credits
-Function coinRead from OPTI Toolbox is the core of this project. It ultilize the MPS input function in CoinUtils from COIN-OR project.
+Function coinRead from OPTI Toolbox is the core of this project. It ultilizes the MPS input function in CoinUtils from COIN-OR project.
 
 ***Copyright declaration***:
 
